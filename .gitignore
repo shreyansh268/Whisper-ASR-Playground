@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Whisper model cache (downloaded automatically)
+# Default location: ~/.cache/whisper  — not in project, no need to ignore
+
+# Test results log (auto-generated, potentially large)
+asr_results.json
+
+# Audio samples (often large; commit only intentional test fixtures)
+samples/*.mp3
+samples/*.wav
+samples/*.m4a
+samples/*.ogg
+samples/*.flac
+samples/*.mp4
+samples/*.webm
+!samples/.gitkeep
