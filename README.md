@@ -2,6 +2,11 @@
 
 Local ASR testing harness built on [openai/whisper-tiny](https://huggingface.co/openai/whisper-tiny). Transcribe audio files, track metrics across runs, score against reference transcripts, and run automated sanity checks against the `distil-whisper/librispeech_long` dataset — all on CPU, no GPU required.
 
+Sample Transcription
+
+<img width="503" height="196" alt="image" src="https://github.com/user-attachments/assets/b05c9b09-f6f3-42de-82b6-ccfdd8196cac" />
+
+
 ---
 
 ## Features
